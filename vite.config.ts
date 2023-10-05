@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), dts({ entryRoot: "src" })],
   build: {
     lib: {
-      entry: resolve(__dirname, "src/main.ts"),
+      entry: resolve(__dirname, "src/react-compound-factory.ts"),
       name: "react-coumpound-factory",
     },
     rollupOptions: {
