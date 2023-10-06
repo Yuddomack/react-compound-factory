@@ -1,9 +1,22 @@
 {
   "name": "react-compound-factory",
-  "version": "0.0.0-beta3",
+  "version": "0.0.0-beta5",
   "type": "module",
   "types": "./dist/react-compound-factory.d.ts",
   "main": "./dist/react-compound-factory",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuddomack/react-compound-factory"
+  },
+  "author": {
+    "name": "Yuddomack",
+    "email": "darr880406@gmail.com",
+    "url": "https://yuddomack.tistory.com"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -33,5 +46,10 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "compound",
+    "factory"
+  ]
 }
