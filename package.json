@@ -1,6 +1,6 @@
 {
   "name": "react-compound-factory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "types": "./dist/react-compound-factory.d.ts",
   "main": "./dist/react-compound-factory",
@@ -25,15 +25,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.5",
     "@types/node": "^20.8.2",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
@@ -51,8 +51,8 @@
     "vite-plugin-dts": "^3.6.0"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^19",
+    "react-dom": "^19"
   },
   "keywords": [
     "react",
